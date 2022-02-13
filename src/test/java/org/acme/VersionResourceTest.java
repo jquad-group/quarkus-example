@@ -15,7 +15,7 @@ public class VersionResourceTest {
           .when().get("/version")
           .then()
              .statusCode(200)
-             .body(is("Version 1.0.2"));
+             .body(is("Version 1.0.3"));
     }
 
 }
